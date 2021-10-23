@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+.header{
+
+    /*height: 200px;*/
+    display: flex;
+    flex-direction: column;
+}
+
+/*HEADER TOP =======*/
+.header-top{
+    background-color: #fc6d36;
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+}
+
+.header-top-tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color : white;
+    width: 25%;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.header-top-sub-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+.text-container{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header-top-button-container{
+    display: flex;
+    align-items: center;
+}
+.header button{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.shop-button{
+    background-color: #00b577;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    border: none;
+    width: 100px;
+}
+
+/*END HEADER TOP*/
+
+/* HEADER MID ===========*/
+
+.mid-header-section{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header-main-tittle-company{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-main-tittle-company>h1{
+    color: #61c0e2;
+    font-size: 40px;
+}
+.sub-tittle-container>span{
+    font-family: 'Source Sans Pro', sans-serif;
+
+    background: yellow;
+    font-size: 10px;
+    font-weight: bold;
+}
+.sub-tittle-container>h6{
+    font-size: 15px;
+}
+
+.header-contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+.phone-container{
+    font-size: 20px;
+    font-weight: bold;
+}
+.header-disclaimer{
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+/*HEADER NAV SECTION ==================== */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+
+    background-color: #434547;
+    height: 40px;
+}
+
+
+.button-container{
+    margin-left: 10%;
+
+}
+.navbar-button{
+    color: white;
+    border: none;
+    background-color: #434547;
+    border-left: #dbdbdb;
+    align-items: center;
+}
+.button-container>button{
+    cursor: pointer;
+}
+.button-container>button:hover{
+    background-color: #61c0e2;
+}
+/* end HEADER NAV SECTION ==================== */
+
+
+/*  Page presentation SECTION ====================*/
+.page-presentation-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-presentation{
+    display: flex;
+    flex-direction: row;
+}
+.image-container>img{
+    width: 100%;
+}
+.image-container{
+    width: 400px;
+}
+.image-text-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    font-size: 45px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #61c0e2;
+    width: 30%;
+}
+/*end   Page presentation SECTION ====================*/
+
+
+.card-container-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px;
+}
+
+.card>.icon{
+    height: 10%;
+    font-size: 30px;
+}
+
+.paragraph-container{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.dark-blue-card{
+    background-color: #57aace;
+}
+.lighter-dark-blue-card{
+    background-color: #54b0d5;
+}
+.lighter-blue-card{
+    background-color: #5bb6de;
+}
+.lightest-blue-card{
+    background-color: #63c0e7;
+}
